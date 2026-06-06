@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Survey</title>
+    </head>
+<body>
+    <h1 id="heading">Student Feedback Survey</h1>
+    <form>
+        <image src="https://thumbs.dreamstime.com/b/computer-training-23705505.jpg?w=992" alt="Full Stack Developer Skills Grid" width="500"><br><br>
+            <p> Thank you for taking the time to complete this survey. Your feedback helps us improve  the learning experience for future students. </p><br><br>
+            <p> Learen more about web development at <a href="https://developer.mozilla.org/">MDN Web Development</a> </p><br>
+            <hr><br><br>
+
+        Full Name:<br>
+        <input type="text" id="name" name="name" Placeholder="Enter your Full Name" required><br><br>
+
+        Email Address:<br>
+        <input type="email" id="email" name="email" Placeholder="Enter your Email"required><br><br>
+
+        Age:<br>
+        <input type="tel" id="age" name="age" Placeholder="Enter your Age"><br><br>
+
+        Current Education Level:<br><br>
+        <select id="education" name="education">
+            <option value="High School Certificate">High School Certificate</option>
+            <option value="Higher Secondary Certificate">Higher Secondary Certificate</option>
+            <option value="bachelor">Bachelor's Degree</option>
+            <option value="master">Master's Degree</option>
+            <option value="phd">PhD</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>How satisfied are you with the course?</legend><br>
+            <input type="radio" id="Excellent" name="Excellent" value="Excellent">
+            <label for="Excellent">Excellent</label><br>
+            <input type="radio" id="Good" name="Good" value="Good">
+            <label for="Good">Good</label><br>
+            <input type="radio" id="Average" name="Average" value="Average">
+            <label for="Average">Average</label><br>
+            
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Which topic are you interested in?</legend><br>
+            <input type="checkbox" id="HTML" name="HTML" value="HTML">
+            <label for="HTML">HTML</label><br>
+            <input type="checkbox" id="CSS" name="CSS" value="CSS">
+            <label for="CSS">CSS</label><br>
+            <input type="checkbox" id="JavaScript" name="JavaScript" value="JavaScript">
+            <label for="JavaScript">JavaScript</label><br>
+            <input type="checkbox" id="React" name="React" value="React">
+            <label for="React">React</label><br>
+        </fieldset><br><br>
+
+        Additional Comments:<br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" Placeholder="Share your thoughts here ...."></textarea><br><br>
+
+        <input type="submit" value="Submit">
+</body>
+</html>
