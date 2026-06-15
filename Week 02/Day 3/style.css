@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    text-decoration: none;
+    margin-right: 100px;
+    position:fixed;
+}
+.logo{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 80px;
+    text-decoration: none;
+    
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 8px;
+    margin-right: 50px;
+    border-radius: 20px;
+    
+}
+#hero{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: black;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+
+}
+img{
+    width: 22rem;
+    position: absolute;
+    z-index: -1;
+}
+img:hover{
+    scale: 2;
+}
+.less-width{
+    width: 16rem;
+}
+#plant-shelf{
+    left: 0;
+   
+}
+#right-top{
+    right: 17%;
+    top: 17%;
+}
+#right-bottom{
+    right: 0;
+    bottom: 10%;
+}
+
+
