@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.gallery {
+    height: 150px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+img {
+    height: 100px;
+    width: 140px;
+        }
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    colour: black;
+    background-color: blanchedalmond;
+}
+
+.gallery:hover {
+    transform: rotate(10deg) scaleX(1.15);
+    }
+

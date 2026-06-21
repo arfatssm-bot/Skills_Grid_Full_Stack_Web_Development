@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    background-color: none;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}   
+.box {      
+height: 500px;
+width: 500px;
+border: 2px solid none;
+border-bottom: 2px solid black;
+background-color: none;
+justify-content: center;
+align-items: flex-end;
+display: flex;
+
+}
+.ball {
+    height: 50px;
+    width: 50px;
+    border: 2px solid none;
+    border-radius: 50%;
+    background-color: red;
+    animation: ball 6s linear 0s infinite;
+}   
+@keyframes ball {
+0%, 100%{
+    transform: translateY(0px);
+}
+50% {
+    transform: translateY(-450px);
+}
+}
